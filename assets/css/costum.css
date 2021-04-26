@@ -1,0 +1,33 @@
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
+
+@media (max-width: 576px) {
+    .cos-top{
+        height: unset;
+        overflow: unset;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .cos-top{
+        height: unset;
+        overflow: unset;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .cos-top{
+        height: 25rem;
+        overflow: auto;
+    }
+  }
